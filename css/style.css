@@ -77,3 +77,22 @@
     font-family: 'Rajdhani',sans-serif;
     color: #abc4cc;
 }
+.skills{
+    background-color: #102a3c;
+    padding: 50px 0px;
+}
+.section-subtitle{
+    font-family: 'Rajdhani',sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+.section-title{
+    font-family: 'Rajdhani',sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 32px;
+}
+.progress-text{
+    font-size: 24px;
+    font-family: 'Rajdhani',sans-serif;
+}
