@@ -2,6 +2,9 @@
 .bg{
     background-color: #102a3c;
     padding: 20px 0px;
+    position: sticky;
+    top: 0;
+    z-index: 100; 
 }
 
 .link{
@@ -20,6 +23,12 @@
     background-color: #0e6dbb;
     padding: 12px 24px;
     font-size: 20px;
+}
+.started2{
+    background-color: #0e6dbb;
+    padding: 12px 24px;
+    font-size: 20px;
+    margin-left: 19px;
 }
 .started:hover{
     color:#0e6dbb
@@ -110,4 +119,18 @@
     height: auto; 
     margin-top: 5px; 
     margin-left: 290px;
+}
+.github-icon2 {
+    width: 40px; 
+    height: auto; 
+    margin-top: 5px; 
+    margin-left: 20px;
+}
+.contact{
+    background-color: #1a1f22;
+    padding: 80px 0;
+}
+.contact-input{
+    background-color: #3b3e40;
+    
 }
