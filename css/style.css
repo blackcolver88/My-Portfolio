@@ -6,7 +6,11 @@
     top: 0;
     z-index: 100; 
 }
-
+.carousel-img {
+    width: 100%; 
+    height: auto; 
+    object-fit: contain; 
+}
 .link{
     color: white !important;
     font-size: 16px;
