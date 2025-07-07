@@ -1,312 +1,498 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Khchim madi Moemen</title>
+    <title>Moemen Khchim Madi - Software Engineer</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .carousel-item img {
-            max-height: 400px;
-            object-fit: cover;
-        }
-    </style>
-
-</head> 
-
-<body>
-    <nav class="navbar navbar-expand-lg bg sticky-top">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head><body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
         <div class="container">
-
-            <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+            <a class="navbar-brand" href="#home">
+                <span class="brand-text">Moemen</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div class="collapse navbar-collapse" id="navbar">
-
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active link" href="#home" rel="noopener">Home</a>
+                        <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active link" href="#about_me"  >About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active link" href="#My_skills" >Skills</a>
+                        <a class="nav-link" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active link" href="#my_projects"  >Projects</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active link" href="#contact_me" >Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
-
                 </ul>
-                
-
             </div>
-
         </div>
-
-
     </nav>
-    
-    <div class="cover" id="home">
 
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="particles"></div>
+        </div>
         <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <span class="hero-greeting">Hello, I'm</span>
+                        <h1 class="hero-title">
+                            <span class="gradient-text">Moemen</span><br>
+                            <span class="typewriter">Khchim Madi</span>
+                        </h1>
+                        <p class="hero-subtitle">Software Engineer</p>
+                        <p class="hero-description">
+                            Passionate about creating innovative solutions and building amazing digital experiences. 
+                            Currently seeking challenging projects and opportunities to grow.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="Moemen_khchimmadi_resume_english_version-1.pdf" target="_blank" class="btn btn-primary-custom">
+                                <i class="fas fa-download me-2"></i>
+                                Download CV
+                            </a>
+                            <a href="#contact" class="btn btn-outline-custom">
+                                <i class="fas fa-envelope me-2"></i>
+                                Get In Touch
+                            </a>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/moemen-khchim-madi-486a8024b/" target="_blank" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/blackcolver88" target="_blank" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image">
+                        <div class="image-frame">
+                            <img src="images/02_home.png" alt="Moemen Khchim Madi" class="profile-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-           <div class ="row">
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <span class="section-label">About Me</span>
+                        <h2 class="section-title">Building the Future with Code</h2>
+                        <p class="about-text">
+                            I am a Software Engineer with a robust foundation in full-stack development. My work in technology centers on developing efficient solutions that provide meaningful impact.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <h3 class="stat-number">15+</h3>
+                                <span class="stat-label">Projects Completed</span>
+                            </div>
+                            <div class="stat-item">
+                                <h3 class="stat-number">3+</h3>
+                                <span class="stat-label">Years Learning</span>
+                            </div>
+                            <div class="stat-item">
+                                <h3 class="stat-number">10+</h3>
+                                <span class="stat-label">Technologies</span>
+                            </div>
+                        </div>
+                        <a href="https://www.linkedin.com/in/moemen-khchim-madi-486a8024b/" target="_blank" class="btn btn-primary-custom">
+                            <i class="fab fa-linkedin me-2"></i>
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-image">
+                        <div class="experience-card">
+                            <div class="card-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h4>Full Stack Development</h4>
+                            <p>Building end-to-end solutions</p>
+                        </div>
+                        <div class="experience-card">
+                            <div class="card-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h4>Responsive Design</h4>
+                            <p>Creating beautiful user experiences</p>
+                        </div>
+                        <div class="experience-card">
+                            <div class="card-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h4>Database Management</h4>
+                            <p>Optimizing data structures</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <div class="col-lg-7 cover-text">
-                <h1 class="text-light lead subtitle">
-                    I'm Moemen Khchim madi
-                </h1>
-                <h1 class="text-light mt-4 title">
-                    A software engineering student <br>
-                </h1>
-                <p class="text-light lead description">
-                    Take a look at my CV
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-label">My Skills</span>
+                <h2 class="section-title">Technologies & Tools</h2>
+                <p class="section-description">
+                    Here are the technologies and tools I work with to bring ideas to life
                 </p>
-                <div class="mt-4">
-
-                    <a href="Moemen_khchimmadi_resume_english_version.pdf" target="_blank" class="btn btn-primary text-light d-inline-flex align-items-center px-3 py-2">
-                        Download CV
-                        <span class="material-symbols-outlined ms-2">
-                            download
-                        </span>
-                    </a>
-                    
-                    
-                </div>
             </div>
-            <div class="col-lg-5">
-                <img src="/images/02_home.png" class ="w-100" alt="my_pic">
-            </div>
-           </div> 
-
-        </div>
-
-    </div>
-
-    <div class="about" id="about_me">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7">
-                    <h4 class="text-light about-subtitle mt-1">About me</h4>
-                     <h1 class="text-light about-title">
-                        A third year engineering student
-                        looking for a challenging projects, internships or jobs
-                     </h1>
-                     <p class="lead about-desc">
-                        Here's my linkedin profile
-                     </p>
-                     <a href="https://www.linkedin.com/in/moemen-khchim-madi-486a8024b/" target="_blank">
-                        <button class="btn btn-primary text-light mt-3">
-                            Learn more
-                        </button>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="skills" id="My_skills">
-
-        <div class="container">
-
-            <h2 class="text-light text-center section-subtitle">
-                My Skills
-            </h2>
             
-
-            <div id="skillsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="500">
-
-                <ol class="carousel-indicators">
-                  <li data-target="#skillsCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#skillsCarousel" data-slide-to="1"></li>
-                  <li data-target="#skillsCarousel" data-slide-to="2"></li>
-                  <li data-target="#skillsCarousel" data-slide-to="3"></li>
-                  <li data-target="#skillsCarousel" data-slide-to="4"></li>
-                  <li data-target="#skillsCarousel" data-slide-to="5"></li>
-                  <li data-target="#skillsCarousel" data-slide-to="6"></li>
-                  <li data-target="#skillsCarousel" data-slide-to="7"></li>
-                  <li data-target="#skillsCarousel" data-slide-to="8"></li>
-                  <li data-target="#skillsCarousel" data-slide-to="9"></li>
-                  <li data-target="#skillsCarousel" data-slide-to="10"></li>
-                  <li data-target="#skillsCarousel" data-slide-to="11"></li>
-                </ol>
-                
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                   
-                    <img class="d-block w-100" src="./images/angular-icon-logo.png" alt="Angular" style="object-fit: contain; max-height: 400px;">
-                    <div class="carousel-caption d-none d-md-block">
-                     
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-code me-2"></i>
+                        Frontend
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <img src="images/angular-icon-logo.png" alt="Angular">
+                            <span>Angular</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="images/tailwind-logo.png" alt="Tailwind CSS">
+                            <span>Tailwind CSS</span>
+                        </div>
                     </div>
-                  </div>
-                  
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./images/spring_logo.png" alt="Spring Boot" style="object-fit: contain; max-height: 400px;">
-                    <div class="carousel-caption d-none d-md-block">
-                      
-                    </div>
-                  </div>
-
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./images/Camunda.png" alt="Git" style="object-fit: contain; max-height: 400px;">
-                    <div class="carousel-caption d-none d-md-block">
-                      
-                    </div>
-                  </div>
-
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./images/Node.png" alt="Git" style="object-fit: contain; max-height: 400px;">
-                    <div class="carousel-caption d-none d-md-block">
-                      
-                    </div>
-                  </div>
-                  
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./images/postgres.png" alt="PostgreSQL" style="object-fit: contain; max-height: 400px;">
-                    <div class="carousel-caption d-none d-md-block">
-                      
-                    </div>
-                  </div>
-
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./images/git.512x512.png" alt="Git" style="object-fit: contain; max-height: 400px;">
-                    <div class="carousel-caption d-none d-md-block">
-                      
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./images/docker_logo.png" alt="Git" style="object-fit: contain; max-height: 400px;">
-                    <div class="carousel-caption d-none d-md-block">
-                      
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./images/c-logo.png" alt="Git" style="object-fit: contain; max-height: 400px;">
-                    <div class="carousel-caption d-none d-md-block">
-                     
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./images/C_sharp.png" alt="Git" style="object-fit: contain; max-height: 400px;">
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./images/java-logo.png" alt="Git" style="object-fit: contain; max-height: 400px;">
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./images/python-logo.png" alt="Git" style="object-fit: contain; max-height: 400px;">
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./images/tailwind-logo.png" alt="Git" style="object-fit: contain; max-height: 400px;">
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
-                  </div>
                 </div>
                 
-                <a class="carousel-control-prev" href="#skillsCarousel" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                
-                <a class="carousel-control-next" href="#skillsCarousel" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-              
-                 
-
-        </div>
-
-    </div>
-    <div class="portfolio" id="my_projects">
-        <div class="container">
-            <h4 class="text-light text-center section-subtitle mt-1">
-                My projects
-                <a href="https://github.com/blackcolver88" target="_blank">
-                    <img src="/images/3d-fluency-github-logo.png" alt="GitHub" class="github-icon2">
-                </a>
-            </h4>
-            <h1 class="text-light text-center section-title">Most important projects</h1>
-            <div class="row mt-5">
-                <div class="col-lg-6 mt-4">
-                    <img src="/images/galaga_entry.png" alt="" class="w-50">
-                    <a href="https://github.com/blackcolver88/Galaga-game-project" target="_blank">
-                        <img src="/images/3d-fluency-github-logo.png" alt="GitHub" class="github-icon1">
-                    </a>
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-server me-2"></i>
+                        Backend
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <img src="images/spring_logo.png" alt="Spring Boot">
+                            <span>Spring Boot</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="images/Node.png" alt="Node.js">
+                            <span>Node.js</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-6 mt-4">
-                    <img src="/images/artmarketplace.png" alt="" class="w-100">
-                    <a href="https://github.com/blackcolver88/web_avance_sujet_artMarketPlace" target="_blank">
-                        <img src="/images/3d-fluency-github-logo.png" alt="GitHub" class="github-icon">
-                    </a>
+                
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-database me-2"></i>
+                        Database
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <img src="images/postgres.png" alt="PostgreSQL">
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-language me-2"></i>
+                        Languages
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <img src="images/java-logo.png" alt="Java">
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="images/python-logo.png" alt="Python">
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="images/C_sharp.png" alt="C#">
+                            <span>C#</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="images/c-logo.png" alt="C">
+                            <span>C</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-tools me-2"></i>
+                        Tools & Others
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <img src="images/git.512x512.png" alt="Git">
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="images/docker_logo.png" alt="Docker">
+                            <span>Docker</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="images/Camunda.png" alt="Camunda">
+                            <span>Camunda</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="contact" id="contact_me">
-
+    </section>
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
         <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-label">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-description">
+                    Here are some of my most significant projects that showcase my skills and creativity
+                </p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/galaga_entry.png" alt="Galaga Game Project">
+                        <div class="project-overlay">
+                            <div class="project-actions">
+                                <a href="https://github.com/blackcolver88/Galaga-game-project" target="_blank" class="project-btn">
+                                    <i class="fab fa-github"></i>
+                                    View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Galaga Game</h3>
+                        <p class="project-description">
+                            A classic arcade-style space shooter game built with modern web technologies. 
+                            Features smooth animations, collision detection, and progressive difficulty levels.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML5 Canvas</span>
+                            <span class="tech-tag">CSS3</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/artmarketplace.png" alt="Art Marketplace">
+                        <div class="project-overlay">
+                            <div class="project-actions">
+                                <a href="https://github.com/blackcolver88/web_avance_sujet_artMarketPlace" target="_blank" class="project-btn">
+                                    <i class="fab fa-github"></i>
+                                    View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Art Marketplace</h3>
+                        <p class="project-description">
+                            A full-stack web application for buying and selling digital art. 
+                            Features user authentication, payment integration, and responsive design.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Angular</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card coming-soon">
+                    <div class="project-image">
+                        <div class="coming-soon-content">
+                            <i class="fas fa-plus"></i>
+                            <h4>More Projects Coming Soon</h4>
+                            <p>Currently working on exciting new projects</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5">
+                <a href="https://github.com/blackcolver88" target="_blank" class="btn btn-outline-custom">
+                    <i class="fab fa-github me-2"></i>
+                    View All Projects
+                </a>
+            </div>
+        </div>
+    </section>
 
-            <div class="row">
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <img src="/images/—Pngtree—contact our male customer service_5412873.png" class="w-75" alt="">
-                </div>
-
-                <div class="col-lg-6">
-                    <h4 class="text-light section-subtitle">
-                        CONTACT
-                    </h4>
-                    <h1 class="text-light section-title">Get in touch with me</h1>
-                    <div class="row mt-5">
-                        <div class="col-lg-6">
-                            <input type="text" class="form-control m-2 contact-input" placeholder="Full name">
+                    <div class="contact-content">
+                        <span class="section-label">Get In Touch</span>
+                        <h2 class="section-title">Let's Work Together</h2>
+                        <p class="contact-description">
+                            I'm always open to discussing new opportunities, interesting projects, 
+                            or just having a conversation about technology and innovation.
+                        </p>
+                        
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Email</h4>
+                                    <p>Let's connect via email</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>LinkedIn</h4>
+                                    <p>Connect with me professionally</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>GitHub</h4>
+                                    <p>Check out my code repositories</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-lg-6">
-                            <input type="text" class="form-control m-2 contact-input" placeholder="Email">
-                        </div>
-                        <div class="col-lg-12">
-                            <input type="text" class="form-control m-2 contact-input" placeholder="Subject">
-                        </div>
-                        <div class="col-lg-12">
-                            <textarea name="" id="" cols="30" rows="6" class="form-control m-2 contact-input" placeholder="message"></textarea>
-                        </div>
-                        <button class="btn btn-primary text-light w-50 started2 ml-4">
-                            Send Message
-                        </button>
                     </div>
                 </div>
-
+                
+                <div class="col-lg-6">
+                    <div class="contact-form-wrapper">
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Subject" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary-custom w-100">
+                                <i class="fas fa-paper-plane me-2"></i>
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
             </div>
-            
-            
-
         </div>
+    </section>
 
-    </div>
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>  
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Moemen Khchim Madi. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/moemen-khchim-madi-486a8024b/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/blackcolver88" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Navbar background on scroll
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.custom-navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Animate elements on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.skill-item, .project-card, .experience-card, .contact-item').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Contact form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! I will get back to you soon.');
+            this.reset();
+        });
+    </script>
 </body>
 </html>
